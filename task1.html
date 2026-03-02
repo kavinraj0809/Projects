@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="download.jpg">
+</head>
+
+<body>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            background-color: gray;
+        }
+        .container{
+            margin-top: 70px;
+        }
+
+        img {
+            border-radius: 110px;
+        }
+
+        .card {
+            background-color: white;
+            text-align: center;
+            width: fit-content;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgb(0, 0, 0.1);
+            font-family: "Gelasio", serif;
+            font-optical-sizing: auto;
+            font-weight: <weight>;
+            font-style: normal;
+        }
+
+
+        #one {
+            text-align: justify;
+        }
+
+        .button{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        button{
+            width: 80px;
+            border: none;
+            background-color: #007bff;
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover{
+            background-color: #0056b3;
+        }
+
+        @media(max-width:600px){
+            .button{
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+
+    </style>
+
+    <div class="container">
+        <div class="card">
+            <img src="download.jpg" alt="">
+            <h1>Hayley Williams</h1>
+            <p id="one">I'm not lazy, just saving energy.<br>
+                Procrastination is my profession. 😎<br>
+                I'm not special, I'm just limited edition.<br>
+                Don't be a slave in heaven. Be a king of hell.</p>
+
+            <div class="button">
+                <button>Follow</button>
+                <button>Message</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
